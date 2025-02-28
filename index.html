@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>五彩俄罗斯方块</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="game-board" width="300" height="600"></canvas>
+        <div class="info-panel">
+            <div class="score-box">
+                <h2>得分: <span id="score">0</span></h2>
+                <h2>级别: <span id="level">1</span></h2>
+            </div>
+            <button id="start-btn">开始游戏</button>
+            <div class="controls">
+                <p>← → : 左右移动</p>
+                <p>↑ : 旋转方块</p>
+                <p>↓ : 加速下落</p>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
